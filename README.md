@@ -18,6 +18,9 @@ PostgreSQL logging of every prompt & response (blocked or not) for monitoring an
 •⁠  ⁠Execute harmful or unethical code  
 Protecting against prompt injection is critical for any deployed AI service, because even seemingly harmless chat apps can be hijacked to produce dangerous or unintended outputs.
 
+**Why I chose Zypher**
+As a lightweight developer-friendly LLM without heavy production-grade safety fine-tuning, Zephyr is an ideal case study—its open “system” prompts can be trivially overridden unless actively defended.
+
 **Tech Stack**
 Python 3.8+  
 PostgreSQL database  
